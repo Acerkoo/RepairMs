@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="repair">
+    <output-path>$PROJECT_DIR$/out/artifacts/repair</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="equip/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="equip" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../Jar包/mysql-connector-java-5.1.39-bin.jar" />
+        </element>
+      </element>
+      <element id="directory" name="folder">
+        <element id="dir-copy" path="$PROJECT_DIR$" />
+      </element>
+    </root>
+  </artifact>
+</component>
